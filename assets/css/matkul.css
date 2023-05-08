@@ -1,0 +1,75 @@
+@import url(theme.css);
+
+.wrapper{
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+.sidebar {
+    width: 320px;
+    height: 100%;
+    background-color: var(--primary);
+    color: var(--text1);
+}
+a:hover{
+    color: unset !important;
+}
+.h-sidebar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.l-sidebar{
+    padding: unset;
+}
+.l-sidebar li{
+    padding: 1.2rem;
+    font-size: 20px;
+    display: flex;
+}
+.l-sidebar li:hover{
+    background-color: var(--grad1);
+}
+
+.main{
+    color: var(--text2);
+    flex-grow: 1;
+}
+.navbar{
+    padding: 1rem;
+    padding-left: 3rem;
+    background-color: var(--primary);
+    color: var(--text1);
+}
+.c-main{
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    gap: 1rem;
+}
+.fitur button{
+    background-color:greenyellow;
+    color: var(--text2);
+    padding: 0.5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
+.addarea{
+    display: none;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+}
+.closed{
+    background-color: transparent;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}

@@ -1,0 +1,27 @@
+@import url(theme.css);
+
+.wrapper {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 320px;
+    height: 100%;
+    background-color: var(--primary);
+    color: var(--text1);
+}
+
+.h-sidebar {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.l-sidebar li{
+    padding: 1.2rem;
+    font-size: 20px;
+    display: flex;
+}
+.l-sidebar li:hover{
+    background-color: var(--grad1);
+}
